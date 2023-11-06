@@ -12,5 +12,7 @@ Sources:
 1) https://www.tensorflow.org/text/guide/word_embeddings
 2) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
 
-# install gensim package to load and use the model
+ ## pretrained word2vec model
+ we will use a pretrained word2vec model
+####  install gensim package to load and use the model
 !pip install gensim
