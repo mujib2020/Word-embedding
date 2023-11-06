@@ -4,7 +4,7 @@ Word embedings are mathematical mrepresentations of texts. In other words, a wor
 2) Encode each word with a unique number
 3) Word embeddings
 
-Word embeddings are preferred because they capture semantic similarities between words in lower-dimensional space, unlike one-hot encodings which are sparse and don't convey meaning, or unique numbers which are arbitrary and non-semantic.
+*Word embeddings* are preferred because they capture semantic similarities between words in lower-dimensional space, unlike one-hot encodings which are sparse and don't convey meaning, or unique numbers which are arbitrary and non-semantic.
 
 
 
