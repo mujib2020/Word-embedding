@@ -8,4 +8,7 @@ Word embeddings are preferred because they capture semantic similarities between
 
 
 
-Sources: 1) https://www.tensorflow.org/text/guide/word_embeddings
+Sources: 
+1) https://www.tensorflow.org/text/guide/word_embeddings
+2) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
+
