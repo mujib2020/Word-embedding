@@ -27,6 +27,5 @@ Sources:
 2) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
 
  ## pretrained word2vec model
- we will use a pretrained word2vec model
-####  install gensim package to load and use the model
-!pip install gensim
+ At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: Word-embedding.ipynb
+
