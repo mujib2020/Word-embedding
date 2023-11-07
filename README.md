@@ -28,5 +28,5 @@ Sources:
 3) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
 
  ## Pretrained and train on a custom dataset
- At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: Word-embedding.ipynb
+ At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: [Word-embedding.ipynb](https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb)https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb
 
