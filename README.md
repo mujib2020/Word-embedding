@@ -11,21 +11,22 @@ Word embedings are mathematical mrepresentations of texts. In other words, a wor
 **Some word embedding methods**
 There are several methods to generate word embeddings, with varying complexity and linguistic sophistication. Some of the most prominent methods include:
 1) Word2Vec (by Google):  There are two architectures
+   
    Skip-gram: Predicts context words given a target word.
    Continuous Bag of Words (CBOW): Predicts the target word from a set of context words.
-2) GloVe(by Stanford)
-3) FastText (by facebook): It is an extension of Word2Vec.
-4) ELMo (Embeddings from Language Models): It uses a deep, bi-directional LSTM
-5) BERT (Bidirectional Encoder Representations from Transformers): BERT learns word representations by jointly conditioning on both left and right context in all layers using the Transformer architecture.
-6) GPT (Generative Pretrained Transformer): Similar to BERT but uses a left-to-right context and is trained to predict the next word in a sentence, which results in word embeddings as a byproduct of its language model.
-7) Transformer-based Embeddings: Recent language models like GPT-3, T5, and others use transformer networks to produce context-aware embeddings that reflect the different meanings a word can have in different contexts.
-
-
+   
+3) GloVe(by Stanford)
+4) FastText (by facebook): It is an extension of Word2Vec.
+5) ELMo (Embeddings from Language Models): It uses a deep, bi-directional LSTM
+6) BERT (Bidirectional Encoder Representations from Transformers): BERT learns word representations by jointly conditioning on both left and right context in all layers using the Transformer architecture.
+7) GPT (Generative Pretrained Transformer): Similar to BERT but uses a left-to-right context and is trained to predict the next word in a sentence, which results in word embeddings as a byproduct of its language model.
+8) Transformer-based Embeddings: Recent language models like GPT-3, T5, and others use transformer networks to produce context-aware embeddings that reflect the different meanings a word can have in different contexts.
 
 Sources: 
 1) https://www.tensorflow.org/text/guide/word_embeddings
-2) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
+2) Gensim: https://radimrehurek.com/gensim/models/word2vec.html
+3) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
 
- ## pretrained word2vec model
+ ## Pretrained and train on a custom dataset
  At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: Word-embedding.ipynb
 
