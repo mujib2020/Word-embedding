@@ -21,9 +21,6 @@ There are several methods to generate word embeddings, with varying complexity a
 7) Transformer-based Embeddings: Recent language models like GPT-3, T5, and others use transformer networks to produce context-aware embeddings that reflect the different meanings a word can have in different contexts.
 
 
-![image](https://github.com/mujib2020/Word-embedding/assets/61886262/7b80b1f4-a467-4b8d-85d1-28f8f11e13fc)
-
-Source: Youtube - codebasics
 
 Sources: 
 1) https://www.tensorflow.org/text/guide/word_embeddings
