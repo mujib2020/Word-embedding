@@ -1,4 +1,4 @@
-![image](https://github.com/mujib2020/Word-embedding/assets/61886262/488d9e95-44f1-4594-8fdb-9907dc4cfd90)# Word-embedding
+# Word-embedding
 Word embedings are mathematical mrepresentations of texts. In other words, a word embedding is a representation of a word in a real-valued vector. The inputs in the ML models are numbers. When working with text, the first thing we must do is come up with a strategy to convert strings to numbers (or to "vectorize" the text) before feeding it to the model. Some strategies for doing so: 
 1) One-hot encodings
 2) Encode each word with a unique number
@@ -21,7 +21,8 @@ There are several methods to generate word embeddings, with varying complexity a
 7) Transformer-based Embeddings: Recent language models like GPT-3, T5, and others use transformer networks to produce context-aware embeddings that reflect the different meanings a word can have in different contexts.
 
 
-![image](https://github.com/mujib2020/Word-embedding/assets/61886262/46d9e451-9787-48ff-b830-2cfb190e96ea)
+![image](https://github.com/mujib2020/Word-embedding/assets/61886262/7b80b1f4-a467-4b8d-85d1-28f8f11e13fc)
+
 Source: Youtube - codebasics
 
 Sources: 
