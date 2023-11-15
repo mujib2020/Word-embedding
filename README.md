@@ -22,12 +22,8 @@ There are several methods to generate word embeddings, with varying complexity a
 7) GPT (Generative Pretrained Transformer): Similar to BERT but uses a left-to-right context and is trained to predict the next word in a sentence, which results in word embeddings as a byproduct of its language model.
 8) Transformer-based Embeddings: Recent language models like GPT-3, T5, and others use transformer networks to produce context-aware embeddings that reflect the different meanings a word can have in different contexts.
 
-Sources: 
-1) https://www.tensorflow.org/text/guide/word_embeddings
-2) Gensim: https://radimrehurek.com/gensim/models/word2vec.html
-3) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
 
- ## Pretrained and train on a custom dataset
+ ## Word2Vec: Pretrained and train on a custom dataset
  At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: [Word-embedding.ipynb](https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb)https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb
 
 ## Drawback of Word2Vec:
@@ -40,3 +36,8 @@ Let's consider these sentences:
 Word2Vec may generate the same vector for the word "fair" in both sentences. However, the word 'fair' has different meanings in these contexts.
 
 **Remedy with BERT:** To address this issue, we can use BERT, which generates contextualized embeddings. Unlike Word2Vec, BERT considers the entire context of a word within a sentence, allowing it to distinguish between different usages of the same word.
+
+**Sources:**
+1) https://www.tensorflow.org/text/guide/word_embeddings
+2) Gensim: https://radimrehurek.com/gensim/models/word2vec.html
+3) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
