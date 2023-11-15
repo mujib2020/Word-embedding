@@ -30,3 +30,13 @@ Sources:
  ## Pretrained and train on a custom dataset
  At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: [Word-embedding.ipynb](https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb)https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb
 
+## Drawback of Word2Vec:
+
+Let's consider these sentences:
+
+1. He was not fair in his role.
+2. There will be a fun fair in the city of Dallas.
+3. 
+Word2Vec may generate the same vector for the word "fair" in both sentences. However, the word 'fair' has different meanings in these contexts.
+
+**Remedy with BERT:** To address this issue, we can use BERT, which generates contextualized embeddings. Unlike Word2Vec, BERT considers the entire context of a word within a sentence, allowing it to distinguish between different usages of the same word.
