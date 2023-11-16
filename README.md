@@ -26,7 +26,7 @@ There are several methods to generate word embeddings, with varying complexity a
  ## Word2Vec: Pretrained and train on a custom dataset
  At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: [Word-embedding.ipynb](https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb)https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb
 
-## Drawback of Word2Vec:
+### Drawback of Word2Vec:
 
 Let's consider these sentences:
 
@@ -36,8 +36,19 @@ Let's consider these sentences:
 Word2Vec may generate the same vector for the word "fair" in both sentences. However, the word 'fair' has different meanings in these contexts.
 
 **Remedy with BERT:** To address this issue, we can use BERT, which generates contextualized embeddings. Unlike Word2Vec, BERT considers the entire context of a word within a sentence, allowing it to distinguish between different usages of the same word.
+ ## BERT:
+BERT generates sophisticated word embeddings that capture the context of a word within a sentence. Unlike traditional models, BERT examines the full context of a word by looking at the words that come before and after it, resulting in rich, nuanced representations that vary depending on the word's usage.
 
-**Sources:**
+BERT implementation: See the code above:  Word_embedding_BERT.ipynb
+
+**Sources**
+*Word2vec:*
 1) https://www.tensorflow.org/text/guide/word_embeddings
 2) Gensim: https://radimrehurek.com/gensim/models/word2vec.html
 3) Book: Python Natural Language Processing Cookbook - by Zhenya Antic
+
+*BERT*:
+1. BERT models: https://tfhub.dev/google/collections/bert/1
+2. Text preprocessing layer: https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/3
+3. https://jalammar.github.io/illustrated-bert/
+4.  https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model#:~:text=BERT%2C%20which%20stands%20for%20Bidirectional,calculated%20based%20upon%20their%20connection.
