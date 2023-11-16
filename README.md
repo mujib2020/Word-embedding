@@ -24,7 +24,7 @@ There are several methods to generate word embeddings, with varying complexity a
 
 
  ## Word2Vec: Pretrained and train on a custom dataset
- At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the link for the code: [Word-embedding.ipynb](https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb)https://github.com/mujib2020/Word-embedding/blob/master/Word-embedding.ipynb
+ At first we will use a pretrained word2vec model and then train word2vec model on a custom dataset. Here is the implementation (code): Word-embedding.ipynb
 
 ### Drawback of Word2Vec:
 
@@ -42,6 +42,7 @@ BERT generates sophisticated word embeddings that capture the context of a word 
 BERT implementation: See the code above:  Word_embedding_BERT.ipynb
 
 **Sources**
+
 *Word2vec:*
 1) https://www.tensorflow.org/text/guide/word_embeddings
 2) Gensim: https://radimrehurek.com/gensim/models/word2vec.html
